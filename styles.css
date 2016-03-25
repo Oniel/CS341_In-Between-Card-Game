@@ -1,0 +1,83 @@
+/*Generic classes*/
+body {
+    color: white;
+}
+
+img {
+    width: 250px;
+    height: 363px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.mainBack {
+	background-image: url('poker-table-felt.jpg');
+	background-color: #005DA1;
+}
+
+.centerDiv {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Field set classes*/
+#info {
+    color: orange;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.wonOrLost {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+#startAGame {
+	margin-right: 30px;
+}
+
+/* cards classes*/
+.handTitles {
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.dealerTitle {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.playerTitle {
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 0px;
+}
+
+#dealerCard1 {
+    width: 250px;
+    height: 363px;
+    background-size: 250px 363px;
+    margin: 10px;    
+}
+#dealerCard2 {
+    width: 250px;
+    height: 363px;
+    background-size: 250px 363px;
+    margin: 10px;
+}
+#playerCard {
+    width: 250px;
+    height: 363px;
+    background-size: 250px 363px;
+    margin: 10px;
+    margin-left: 145px;
+}
+.cardsDiv{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}

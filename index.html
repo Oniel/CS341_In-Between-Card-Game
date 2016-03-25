@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The In-Between Card Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="cards.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body class="mainBack" onload="initLoad();">
+	<h1> The 'In Between' Card Game </h1>
+
+<!--    Game Functions -->
+    <div class="centerDiv">
+        <button id="startAGame" onclick="startAGame();">Start New Game </button>
+        <label>Input a starting wager: </label>
+        <input type="text" id="initialWager">
+<!--    Play A Single Game -->
+        <button id="playAHand" onclick="playAHand();">Play A Single Game</button>
+<!--    Play 10,000 Games -->
+        <button id="play10000Games" onclick="play10000Games();">Play 10,000 Games</button>
+<!--    Play Until All is list-->
+        <button onclick="playTillLose();">Play Until You Lose</button>
+<!--    Exit -->
+        <button onclick="javascript:close_window();">Exit</button>
+    </div><br>
+    
+<!--    Information About Game Status-->
+    <fieldset class="centerDiv">
+        <legend>Game Info</legend>
+        <span id="info"></span>
+        <br>
+        <span id="wonOrLost" class="wonOrLost"></span>
+        <br>
+        <label>Current Holdings: $</label>
+        <span id="currentHoldings"></span>
+        <br>
+        <label>Number of games played:</label>
+        <span id="gamesPlayed"></span>
+    </fieldset>
+
+    <div class="handTitles">
+        <h2 class="dealerTitle">Dealer's Hand</h2>
+        <h2 class="playerTitle">Player's Hand</h2>
+    </div>
+    
+    <div class="cardsDiv"> 
+<!--    Dealers Cards-->
+        <div id="dealerCard1" class=""></div>
+        <div id="dealerCard2" class=""></div>    
+<!--    Player's Cards -->
+        <div id="playerCard" class=""></div>
+    </div>
+    <br>
+    
+    <div class="centerDiv">
+
+    </div>
+
+</body>
+</html>
